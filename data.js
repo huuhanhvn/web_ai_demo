@@ -1,0 +1,20 @@
+window.ROLES = [
+  {name:'Business Analyst (BA)', tags:['analysis','requirements'], tasks:['Thu thập & phân tích yêu cầu','Viết BRD/SRS, user stories','Phối hợp UAT']},
+  {name:'Product Manager (PM)', tags:['product','roadmap'], tasks:['Tầm nhìn sản phẩm, roadmap','Ưu tiên backlog, đo KPI']},
+  {name:'Project Manager / Scrum Master', tags:['project','scrum'], tasks:['Kế hoạch/tiến độ/chi phí/rủi ro','Tổ chức Scrum events']},
+  {name:'UX/UI Designer', tags:['design','ux'], tasks:['Research, wireframe, prototype','Thiết kế UI, handoff']},
+  {name:'Solution/Software Architect', tags:['architecture'], tasks:['Thiết kế kiến trúc, chọn công nghệ','Định nghĩa NFR']},
+  {name:'Backend Developer', tags:['backend','api'], tasks:['Xây API & logic nghiệp vụ','Tối ưu hiệu năng, bảo mật cơ bản']},
+  {name:'Frontend Developer', tags:['frontend','ui'], tasks:['Xây UI web, kết nối API','Viết test, responsive']},
+  {name:'Mobile Developer', tags:['mobile'], tasks:['Phát triển app iOS/Android','Triển khai lên store']},
+  {name:'Database Designer / DBA', tags:['database'], tasks:['Thiết kế ERD & tối ưu truy vấn','Backup/restore, phân quyền']},
+  {name:'QA/QC (Manual Tester)', tags:['qa','testing'], tasks:['Viết & thực thi test cases','Báo cáo bug, xác nhận chất lượng']},
+  {name:'QA Automation', tags:['automation','testing'], tasks:['Thiết kế test tự động UI/API','Tích hợp CI chạy test']},
+  {name:'DevOps / SRE', tags:['devops','infra'], tasks:['Thiết lập CI/CD, IaC','Giám sát/Alerting, Reliability']},
+  {name:'Security Engineer', tags:['security'], tasks:['Pentest, đánh giá lỗ hổng','Chính sách & IAM']},
+  {name:'Data Engineer', tags:['data'], tasks:['Xây pipeline ETL/ELT','Kho dữ liệu & chất lượng dữ liệu']},
+  {name:'ML/AI Engineer', tags:['ml','ai'], tasks:['Huấn luyện/triển khai model','MLOps, theo dõi drift']},
+  {name:'Release Manager', tags:['release'], tasks:['Lập kế hoạch phát hành','Versioning/rollback/changelog']},
+  {name:'Technical Writer', tags:['docs'], tasks:['Soạn tài liệu sản phẩm/kỹ thuật','API doc, user guide']},
+  {name:'IT Support / SysAdmin', tags:['support'], tasks:['Hỗ trợ người dùng','Quản lý tài khoản & thiết bị']}
+];
